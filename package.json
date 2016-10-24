@@ -1,0 +1,30 @@
+{
+  "name": "wds-styles",
+  "version": "1.0.0",
+  "description": "Stylesheets for the Fandom Design System",
+  "main": "scss/index.scss",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fandom, Powered by Wikia",
+  "license": "UNLICENSED",
+  "files": [
+    "wds-all.css",
+    "scss",
+    "svg"
+  ],
+  "devDependencies": {
+    "del": "^2.2.2",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgo": "^1.0.3",
+    "gulp-svgstore": "^6.1.0",
+    "node-sass": "^3.10.1"
+  }
+}
