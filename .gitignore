@@ -1,4 +1,5 @@
 node_modules/
 build/
-svg/
+/svg/
 wds-all.css
+npm-debug.log
